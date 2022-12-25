@@ -83,9 +83,9 @@ main {
 #form {
     display: flex;
     flex-direction: column;
-    margin-top: 35px;
     margin-left: 30px;
-    gap: 15px;  
+    margin-top: 30px;
+    gap: 15px;
 }
 
 .input-dan {
@@ -96,6 +96,7 @@ main {
     padding-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    
 }
 
 .input-dan:focus {
@@ -135,6 +136,28 @@ main {
     color: red;
 }
 
-.msg-erro {
-    margin-bottom: -5px;    
+.first-name-erro {
+    
 }
+
+.last-name-erro {
+    color: red;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.email-erro {
+    color: red;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.pass-erro {
+    color: red;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
