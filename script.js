@@ -58,11 +58,6 @@ function validPass(pass) {
     }    
 }
 
-function clearErros() {
-    if(validFname(firstName) && validLname(lastName) && validEmail(email) && validPass(pass))  {
-        
-    }  
-}
 
 
 
