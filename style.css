@@ -85,7 +85,7 @@ main {
     flex-direction: column;
     margin-left: 30px;
     margin-top: 30px;
-    gap: 15px;
+    gap: 10px;
 }
 
 .input-dan {
@@ -136,28 +136,29 @@ main {
     color: red;
 }
 
-.first-name-erro {
+.name-erro-1 {
+    display: none;
+    color: red;
+    font-size: 0.7em;
+}
+
+.name-erro-2 {
+    display: none;
+    color: red;
+    font-size: 0.7em;
+    
     
 }
 
-.last-name-erro {
+.email-name-erro {
+    display: none;
     color: red;
-    font-size: 0.7em;
-    margin-left: 10px;
-    margin-bottom: -10px;
+    font-size: 0.7em; 
 }
 
-.email-erro {
+.password-erro {
+    display: none;
     color: red;
-    font-size: 0.7em;
-    margin-left: 10px;
-    margin-bottom: -10px;
-}
-
-.pass-erro {
-    color: red;
-    font-size: 0.7em;
-    margin-left: 10px;
-    margin-bottom: -10px;
+    font-size: 0.7em;  
 }
 
